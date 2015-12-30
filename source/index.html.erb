@@ -9,7 +9,7 @@ title: NBN Year in Media 2015
 	</div>
 
 	<% data.entry.results.each do |e| %>
-		<% story_link = "\"/story/#{e.slug}/\"" %>
+		<% story_link = "\"/yim15/story/#{e.slug}/\"" %>
 		<a href= <%= story_link %> >
 		<div class="grid-entry grid-col-3 color1">
 			<div class="entry-content">
@@ -24,12 +24,4 @@ title: NBN Year in Media 2015
 	<div class="footer">
 		<p>Design and Development by Nicole Zhu / <a href="http://www.northbynorthwestern.com/" target="_blank">North by Northwestern</a></p>
 	</div>
-
-	<% if false %>
-        <% data.entry.results.each do |e| %>
-    		<div class="submission">
-    			<%= e.objectId %>
-    		</div>
-    	<% end %>
-    <% end %>
 </div>
