@@ -1,0 +1,15 @@
+.bg-success {
+	padding: 15px;
+}
+
+.format code:hover {
+	cursor: pointer;
+}
+
+.format {
+	margin-bottom: 5px;
+}
+
+.form-group p {
+	font-style: italic;
+}
