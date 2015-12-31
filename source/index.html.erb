@@ -10,7 +10,7 @@ title: NBN Year in Media 2015
 
 	<% if false %>
 		<% data.entry.results.each do |e| %>
-			<% story_link = "\"/story/#{e.slug}/\"" %>
+			<% story_link = "#{e.slug}/" %>
 			<a href= <%= story_link %> >
 			<div class="grid-entry grid-col-3 color1">
 				<div class="entry-content">
@@ -23,8 +23,10 @@ title: NBN Year in Media 2015
 	    <% end %>
 	<% end %>
 
-    <% story_link = "\"/story/#{data.entry.results[0].slug}/\"" %>
-	<a href= <%= story_link %> >
+	<% relative_path = "story/" %>
+
+    <% story_link = "#{data.entry.results[0].slug}/" %>
+	<a href= <%= relative_path %><%= story_link %> >
 	<div class="grid-entry grid-col-3 color1">
 		<div class="entry-content">
 			<p class="entry-section"><%= data.entry.results[0].topic %></p>
@@ -34,8 +36,8 @@ title: NBN Year in Media 2015
 	</div>
 	</a>
 
-	<% story_link = "\"/story/#{data.entry.results[1].slug}/\"" %>
-	<a href= <%= story_link %> >
+	<% story_link = "#{data.entry.results[1].slug}/" %>
+	<a href= <%= relative_path %><%= story_link %> >
 	<div class="grid-entry grid-col-3 color2">
 		<div class="entry-content">
 			<p class="entry-section"><%= data.entry.results[1].topic %></p>
@@ -45,8 +47,8 @@ title: NBN Year in Media 2015
 	</div>
 	</a>
 
-	<% story_link = "\"/story/#{data.entry.results[2].slug}/\"" %>
-	<a href= <%= story_link %> >
+	<% story_link = "#{data.entry.results[2].slug}/" %>
+	<a href= <%= relative_path %><%= story_link %> >
 	<div class="grid-entry grid-col-3 color3">
 		<div class="entry-content">
 			<p class="entry-section"><%= data.entry.results[2].topic %></p>
@@ -56,8 +58,8 @@ title: NBN Year in Media 2015
 	</div>
 	</a>
 
-	<% story_link = "\"/story/#{data.entry.results[3].slug}/\"" %>
-	<a href= <%= story_link %> >
+	<% story_link = "#{data.entry.results[3].slug}/" %>
+	<a href= <%= relative_path %><%= story_link %> >
 	<div class="grid-entry grid-span-2 color4">
 		<div class="entry-content">
 			<p class="entry-section"><%= data.entry.results[3].topic %></p>
@@ -67,8 +69,8 @@ title: NBN Year in Media 2015
 	</div>
 	</a>
 
-	<% story_link = "\"/story/#{data.entry.results[4].slug}/\"" %>
-	<a href= <%= story_link %> >
+	<% story_link = "#{data.entry.results[4].slug}/" %>
+	<a href= <%= relative_path %><%= story_link %> >
 	<div class="grid-entry grid-col-3 color5">
 		<div class="entry-content">
 			<p class="entry-section"><%= data.entry.results[4].topic %></p>
@@ -78,8 +80,8 @@ title: NBN Year in Media 2015
 	</div>
 	</a>
 
-	<% story_link = "\"/story/#{data.entry.results[5].slug}/\"" %>
-	<a href= <%= story_link %> >
+	<% story_link = "#{data.entry.results[5].slug}/" %>
+	<a href= <%= relative_path %><%= story_link %> >
 	<div class="grid-entry grid-col-3 color8">
 		<div class="entry-content">
 			<p class="entry-section"><%= data.entry.results[5].topic %></p>
@@ -89,8 +91,8 @@ title: NBN Year in Media 2015
 	</div>
 	</a>
 
-	<% story_link = "\"/story/#{data.entry.results[6].slug}/\"" %>
-	<a href= <%= story_link %> >
+	<% story_link = "#{data.entry.results[6].slug}/" %>
+	<a href= <%= relative_path %><%= story_link %> >
 	<div class="grid-entry grid-col-3 color9">
 		<div class="entry-content">
 			<p class="entry-section"><%= data.entry.results[6].topic %></p>
@@ -100,8 +102,8 @@ title: NBN Year in Media 2015
 	</div>
 	</a>
 
-	<% story_link = "\"/story/#{data.entry.results[7].slug}/\"" %>
-	<a href= <%= story_link %> >
+	<% story_link = "#{data.entry.results[7].slug}/" %>
+	<a href= <%= relative_path %><%= story_link %> >
 	<div class="grid-entry grid-col-3 color10">
 		<div class="entry-content">
 			<p class="entry-section"><%= data.entry.results[7].topic %></p>
@@ -111,8 +113,8 @@ title: NBN Year in Media 2015
 	</div>
 	</a>
 
-	<% story_link = "\"/story/#{data.entry.results[8].slug}/\"" %>
-	<a href= <%= story_link %> >
+	<% story_link = "#{data.entry.results[8].slug}/" %>
+	<a href= <%= relative_path %><%= story_link %> >
 	<div class="grid-entry grid-col-3 color6">
 		<div class="entry-content">
 			<p class="entry-section"><%= data.entry.results[8].topic %></p>
@@ -122,8 +124,8 @@ title: NBN Year in Media 2015
 	</div>
 	</a>
 
-	<% story_link = "\"/story/#{data.entry.results[9].slug}/\"" %>
-	<a href= <%= story_link %> >
+	<% story_link = "#{data.entry.results[9].slug}/" %>
+	<a href= <%= relative_path %><%= story_link %> >
 	<div class="grid-entry grid-span-2 color7">
 		<div class="entry-content">
 			<p class="entry-section"><%= data.entry.results[9].topic %></p>
@@ -133,8 +135,8 @@ title: NBN Year in Media 2015
 	</div>
 	</a>
 
-	<% story_link = "\"/story/#{data.entry.results[10].slug}/\"" %>
-	<a href= <%= story_link %> >
+	<% story_link = "#{data.entry.results[10].slug}/" %>
+	<a href= <%= relative_path %><%= story_link %> >
 	<div class="grid-entry grid-col-3 color4">
 		<div class="entry-content">
 			<p class="entry-section"><%= data.entry.results[10].topic %></p>
@@ -144,8 +146,8 @@ title: NBN Year in Media 2015
 	</div>
 	</a>
 
-	<% story_link = "\"/story/#{data.entry.results[11].slug}/\"" %>
-	<a href= <%= story_link %> >
+	<% story_link = "#{data.entry.results[11].slug}/" %>
+	<a href= <%= relative_path %><%= story_link %> >
 	<div class="grid-entry grid-col-3 color1">
 		<div class="entry-content">
 			<p class="entry-section"><%= data.entry.results[11].topic %></p>
@@ -155,8 +157,8 @@ title: NBN Year in Media 2015
 	</div>
 	</a>
 
-	<% story_link = "\"/story/#{data.entry.results[12].slug}/\"" %>
-	<a href= <%= story_link %> >
+	<% story_link = "#{data.entry.results[12].slug}/" %>
+	<a href= <%= relative_path %><%= story_link %> >
 	<div class="grid-entry grid-col-3 color10">
 		<div class="entry-content">
 			<p class="entry-section"><%= data.entry.results[12].topic %></p>
@@ -166,8 +168,8 @@ title: NBN Year in Media 2015
 	</div>
 	</a>
 
-	<% story_link = "\"/story/#{data.entry.results[13].slug}/\"" %>
-	<a href= <%= story_link %> >
+	<% story_link = "#{data.entry.results[13].slug}/" %>
+	<a href= <%= relative_path %><%= story_link %> >
 	<div class="grid-entry grid-span-2 color2">
 		<div class="entry-content">
 			<p class="entry-section"><%= data.entry.results[13].topic %></p>
@@ -177,8 +179,8 @@ title: NBN Year in Media 2015
 	</div>
 	</a>
 
-	<% story_link = "\"/story/#{data.entry.results[14].slug}/\"" %>
-	<a href= <%= story_link %> >
+	<% story_link = "#{data.entry.results[14].slug}/" %>
+	<a href= <%= relative_path %><%= story_link %> >
 	<div class="grid-entry grid-col-3 color5">
 		<div class="entry-content">
 			<p class="entry-section"><%= data.entry.results[14].topic %></p>
@@ -188,8 +190,8 @@ title: NBN Year in Media 2015
 	</div>
 	</a>
 
-	<% story_link = "\"/story/#{data.entry.results[15].slug}/\"" %>
-	<a href= <%= story_link %> >
+	<% story_link = "#{data.entry.results[15].slug}/" %>
+	<a href= <%= relative_path %><%= story_link %> >
 	<div class="grid-entry grid-col-3 color3">
 		<div class="entry-content">
 			<p class="entry-section"><%= data.entry.results[15].topic %></p>
@@ -199,8 +201,8 @@ title: NBN Year in Media 2015
 	</div>
 	</a>
 
-	<% story_link = "\"/story/#{data.entry.results[16].slug}/\"" %>
-	<a href= <%= story_link %> >
+	<% story_link = "#{data.entry.results[16].slug}/" %>
+	<a href= <%= relative_path %><%= story_link %> >
 	<div class="grid-entry grid-col-3 color6">
 		<div class="entry-content">
 			<p class="entry-section"><%= data.entry.results[16].topic %></p>
@@ -210,8 +212,8 @@ title: NBN Year in Media 2015
 	</div>
 	</a>
 
-	<% story_link = "\"/story/#{data.entry.results[17].slug}/\"" %>
-	<a href= <%= story_link %> >
+	<% story_link = "#{data.entry.results[17].slug}/" %>
+	<a href= <%= relative_path %><%= story_link %> >
 	<div class="grid-entry grid-col-3 color8">
 		<div class="entry-content">
 			<p class="entry-section"><%= data.entry.results[17].topic %></p>
@@ -221,8 +223,8 @@ title: NBN Year in Media 2015
 	</div>
 	</a>
 
-	<% story_link = "\"/story/#{data.entry.results[18].slug}/\"" %>
-	<a href= <%= story_link %> >
+	<% story_link = "#{data.entry.results[18].slug}/" %>
+	<a href= <%= relative_path %><%= story_link %> >
 	<div class="grid-entry grid-col-3 color10">
 		<div class="entry-content">
 			<p class="entry-section"><%= data.entry.results[18].topic %></p>
@@ -232,8 +234,8 @@ title: NBN Year in Media 2015
 	</div>
 	</a>
 
-	<% story_link = "\"/story/#{data.entry.results[19].slug}/\"" %>
-	<a href= <%= story_link %> >
+	<% story_link = "#{data.entry.results[19].slug}/" %>
+	<a href= <%= relative_path %><%= story_link %> >
 	<div class="grid-entry grid-col-3 color8">
 		<div class="entry-content">
 			<p class="entry-section"><%= data.entry.results[19].topic %></p>
@@ -243,8 +245,8 @@ title: NBN Year in Media 2015
 	</div>
 	</a>
 
-	<% story_link = "\"/story/#{data.entry.results[20].slug}/\"" %>
-	<a href= <%= story_link %> >
+	<% story_link = "#{data.entry.results[20].slug}/" %>
+	<a href= <%= relative_path %><%= story_link %> >
 	<div class="grid-entry grid-col-3 color7">
 		<div class="entry-content">
 			<p class="entry-section"><%= data.entry.results[20].topic %></p>
@@ -254,8 +256,8 @@ title: NBN Year in Media 2015
 	</div>
 	</a>
 
-	<% story_link = "\"/story/#{data.entry.results[21].slug}/\"" %>
-	<a href= <%= story_link %> >
+	<% story_link = "#{data.entry.results[21].slug}/" %>
+	<a href= <%= relative_path %><%= story_link %> >
 	<div class="grid-entry grid-col-3 color9">
 		<div class="entry-content">
 			<p class="entry-section"><%= data.entry.results[21].topic %></p>
@@ -265,8 +267,8 @@ title: NBN Year in Media 2015
 	</div>
 	</a>
 
-	<% story_link = "\"/story/#{data.entry.results[22].slug}/\"" %>
-	<a href= <%= story_link %> >
+	<% story_link = "#{data.entry.results[22].slug}/" %>
+	<a href= <%= relative_path %><%= story_link %> >
 	<div class="grid-entry grid-span-2 color10">
 		<div class="entry-content">
 			<p class="entry-section"><%= data.entry.results[22].topic %></p>

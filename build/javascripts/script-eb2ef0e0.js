@@ -27,6 +27,9 @@ var currentTallest = 0,
 		}
 	});
 }
+$(document).ready(function() {
+	equalheight('.grid-entry');
+});
 
 $(window).load(function() {
   equalheight('.grid-entry');
