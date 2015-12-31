@@ -24,11 +24,13 @@ NBN Year in Media 2015
 
 If you're going to build the project, there are a few things you have to do manually afterwards in the /build folder:
 
-Remove `<em>` from <title> of Hamilton, Parks and Rec, Mad Men, Grantland, Star Wars, Inside Out, The Daily Show
+Remove `<em>` from titles of Hamilton, Parks and Rec, Mad Men, Grantland, Star Wars, Inside Out, The Daily Show
 
 The following stories have images instead of Youtube videos: same-sex marriage, Grantland, and Keystone XL. In their index.html files, change the following to link the image source and caption (captions can be found in data/entry.json)
 
+
 change
+
 
 ```
 <div class="entry-image-wrapper">
@@ -38,7 +40,9 @@ change
 </div>
 ```
 
+
 to
+
 
 ```
 <div class="entry-image-wrapper">
