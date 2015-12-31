@@ -37,33 +37,42 @@ layout: story
             <%= entry_body %>
         </div>
 
+        <% story_link = "\"/story/#{entry_recs[0].slug}/\"" %>
+        <a href= <%= story_link %> >
         <div class="grid-entry grid-col-3 color8">
             <div class="entry-content">
-                <p class="entry-section">TV</p>
-                <p class="entry-subject">Jessica Jones</p>
-                <p class="entry-author">Nicole Zhu</p>
+                <p class="entry-section"><%= entry_recs[0].topic %></p>
+                <p class="entry-subject"><%= entry_recs[0].subject %></p>
+                <p class="entry-author"><%= entry_recs[0].author %></p>
             </div>
         </div>
+        </a>
 
+        <% story_link = "\"/story/#{entry_recs[1].slug}/\"" %>
+        <a href= <%= story_link %> >
         <div class="grid-entry grid-col-3 color10">
             <div class="entry-content">
-                <p class="entry-section">Politics</p>
-                <p class="entry-subject">Marijuana Legalization</p>
-                <p class="entry-author">Sylvan Lane</p>
+                <p class="entry-section"><%= entry_recs[1].topic %></p>
+                <p class="entry-subject"><%= entry_recs[1].subject %></p>
+                <p class="entry-author"><%= entry_recs[1].author %></p>
             </div>
         </div>
+        </a>
 
+        <% story_link = "\"/story/#{entry_recs[2].slug}/\"" %>
+        <a href= <%= story_link %> >
         <div class="grid-entry grid-col-3 color3">
             <div class="entry-content">
-                <p class="entry-section">News</p>
-                <p class="entry-subject">Occupy Central</p>
-                <p class="entry-author">Anne Li</p>
+                <p class="entry-section"><%= entry_recs[2].topic %></p>
+                <p class="entry-subject"><%= entry_recs[2].subject %></p>
+                <p class="entry-author"><%= entry_recs[2].author %></p>
             </div>
         </div>
+        </a>
 
         <div class="grid-entry grid-col-1 color4">
             <div class="all-entries">
-                <p><a href="/">See all stories</a></p>
+                <p><a href="http://apps.northbynorthwestern.com/year-in-media/2015/">See all stories</a></p>
             </div>
         </div>
     </div>

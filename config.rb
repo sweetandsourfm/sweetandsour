@@ -41,7 +41,8 @@ configure :build do
       :entry_author => entry.author,
       :entry_pullquote => entry.pullquote,
       :entry_media => entry.media,
-      :entry_body => entry.entryText
+      :entry_body => entry.entryText,
+      :entry_recs => entry.recs
       }, :ignore => true
   end
 

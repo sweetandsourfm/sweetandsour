@@ -7,6 +7,26 @@
         "media": "\u003ciframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/NKb9GVU8bHE\" frameborder=\"0\" allowfullscreen\u003e\u003c/iframe\u003e",
         "objectId": "51wJnKEnfP",
         "pullquote": "The Syrian refugee crisis has been growing, reaching a scale unseen since World War II. ",
+        "recs": [
+            {
+                "author": "Samuel Niiro",
+                "subject": "Summer of Trump",
+                "slug": "summer-of-trump",
+                "topic": "Politics"
+            },
+            {
+                "author": "Jimmy Yook",
+                "subject": "<em>Inside Out</em>",
+                "slug": "inside-out",
+                "topic": "Movies"
+            },
+            {
+                "author": "Kevin Kryah",
+                "subject": "<em>Star Wars: The Force Awakens</em>",
+                "slug": "star-wars",
+                "topic": "Movies"
+            }
+        ],
         "subject": "Syria",
         "slug": "syria",
         "topic": "Politics",
@@ -20,6 +40,26 @@
         "media": "\u003ciframe width=\"635\" height=\"500\" src=\"http://player.theplatform.com/p/2E2eJC/nbcNewsOffsite?guid=nn_tbr_Muslim Ban Essay_151208\" scrolling=\"no\" frameborder=\"0\"\u003e\u003c/iframe\u003e",
         "objectId": "6ATBOuKHZu",
         "pullquote": "That was then. Half a year later, we are well into the long, dark winter of Trump. ",
+        "recs": [
+            {
+                "author": "Jimmy Yook",
+                "subject": "<em>Inside Out</em>",
+                "slug": "inside-out",
+                "topic": "Movies"
+            },
+            {
+                "author": "Kevin Kryah",
+                "subject": "<em>Star Wars: The Force Awakens</em>",
+                "slug": "star-wars",
+                "topic": "Movies"
+            },
+            {
+                "author": "Carter Sherman",
+                "subject": "<em>The Daily Show</em>",
+                "slug": "daily-show",
+                "topic": "Television"
+            }
+        ],
         "subject": "Summer of Trump",
         "slug": "summer-of-trump",
         "topic": "Politics",
@@ -33,9 +73,29 @@
         "media": "\u003ciframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/yRUAzGQ3nSY\" frameborder=\"0\" allowfullscreen\u003e\u003c/iframe\u003e",
         "objectId": "8OHS2Wi4Pw",
         "pullquote": "Joy learns to appreciate the role of Sadness in controlling Riley’s emotions, and they start to work together to help her grow. ",
-        "subject": "Inside Out",
+        "recs": [
+            {
+                "author": "Kevin Kryah",
+                "subject": "<em>Star Wars: The Force Awakens</em>",
+                "slug": "star-wars",
+                "topic": "Movies"
+            },
+            {
+                "author": "Carter Sherman",
+                "subject": "<em>The Daily Show</em>",
+                "slug": "daily-show",
+                "topic": "Television"
+            },
+            {
+                "author": "Abby Blachman",
+                "subject": "Same-sex marriage",
+                "slug": "same-sex-marriage",
+                "topic": "Politics"
+            }
+        ],
+        "subject": "<em>Inside Out</em>",
         "slug": "inside-out",
-        "topic": "Media",
+        "topic": "Movies",
         "updatedAt": "2015-12-27T21:25:20.985Z"
     },
 	{
@@ -46,9 +106,29 @@
         "media": "\u003ciframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/sGbxmsDFVnE\" frameborder=\"0\" allowfullscreen\u003e\u003c/iframe\u003e",
         "objectId": "8gZNrnjKeJ",
         "pullquote": "While other movie franchises have “cinematic universes,” \u003cem\u003eStar Wars\u003c/em\u003e has full-fledged apocrypha. ",
-        "subject": "Star Wars: The Force Awakens",
+        "recs": [
+            {
+                "author": "Carter Sherman",
+                "subject": "<em>The Daily Show</em>",
+                "slug": "daily-show",
+                "topic": "Television"
+            },
+            {
+                "author": "Abby Blachman",
+                "subject": "Same-sex marriage",
+                "slug": "same-sex-marriage",
+                "topic": "Politics"
+            },
+            {
+                "author": "Amal Ahmed",
+                "subject": "Keystone XL",
+                "slug": "keystone-xl",
+                "topic": "Politics"
+            }
+        ],
+        "subject": "<em>Star Wars: The Force Awakens</em>",
         "slug": "star-wars",
-        "topic": "Entertainment",
+        "topic": "Movies",
         "updatedAt": "2015-12-29T04:54:49.153Z"
     },
 	{
@@ -59,19 +139,59 @@
         "media": "\u003ciframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/aFQFB5YpDZE\" frameborder=\"0\" allowfullscreen\u003e\u003c/iframe\u003e",
         "objectId": "CPB5Yt543V",
         "pullquote": "“The best defense against bullshit is vigilance. So if you smell something, say something.” ",
-        "subject": "The Daily Show",
+        "recs": [
+            {
+                "author": "Abby Blachman",
+                "subject": "Same-sex marriage",
+                "slug": "same-sex-marriage",
+                "topic": "Politics"
+            },
+            {
+                "author": "Amal Ahmed",
+                "subject": "Keystone XL",
+                "slug": "keystone-xl",
+                "topic": "Politics"
+            },
+            {
+                "author": "Sarah Turbin",
+                "subject": "Snapchat",
+                "slug": "snapchat",
+                "topic": "Media"
+            }
+        ],
+        "subject": "<em>The Daily Show</em>",
         "slug": "daily-show",
-        "topic": "Media",
+        "topic": "Television",
         "updatedAt": "2015-12-29T05:42:01.524Z"
     },
 	{
         "author": "Abby Blachman",
         "createdAt": "2015-12-27T20:51:12.514Z",
         "credit": "Photo by Ted Eytan on Flickr. Licensed under Creative Commons.",
-        "entryText": "\u003cp\u003eThe Supreme Court of the United States sprinkled a bit of light and hope on a dark and tension-filled 2015 when they ruled on June 26 that all American citizens, regardless of sexual orientation or gender, have the right to marry the person they love. \u003cem\u003eObergefell v. Hodges\u003c/em\u003e stands out as a victory for the United States in a year when innocent lives were taken by \u003ca href=\"http://www.theguardian.com/us-news/ng-interactive/2015/jun/01/the-counted-police-killings-us-database\" target=\"_blank\"\u003ecorrupt police forces in the name of discrimination\u003c/a\u003e , in a year when gunfire \u003ca href=\"http://www.gunviolencearchive.org\" target=\"_blank\"\u003etore through the country\u003c/a\u003e and in a year where a legitmate contender for the White House called for a \u003ca href=\"http://www.nytimes.com/video/us/100000004080249/trump-reaffirms-urge-to-halt-muslims.html\" target=\"_blank\"\u003e“total and complete shutdown of Muslims entering the United States.”\u003c/a\u003e \u003c/p\u003e\n\n\u003cp\u003e\u003cem\u003eObergefell v. Hodges\u003c/em\u003e, which came after decades of hard-fought and persistent civil rights activism, was welcomed with tearful embraces, joyful parades, and celebrations from people of all genders, sexual orientations, ages, races and ethnicities across the nation and the world.\u003c/p\u003e\n\n\u003cp\u003eThe decision was also unsurprisingly met with resistance and protest. Kentucky court clerk Kim Davis famously spent five days in jail for refusing to issue same-sex marriage licenses. Justice Antonin Scalia called the Court’s decision a “threat to American democracy.”\n\u003c/p\u003e\n\n\u003cp\u003eResistance to the decision is part of a wave of conservatism in the United States that reflects a trend of asymmetrical political polarization. While the left moves farther to the left, the right moves even more extremely farther to the right. Conservative political extremism has \u003ca href=\"http://www.vox.com/2015/8/7/9115493/tea-party-donald-trump\" target=\"_blank\"\u003ebirthed movements like the Tea Party and presidential candidates like Donald Trump\u003c/a\u003e, who is a staunch supporter of what he refers to as \u003ca href=\"http://www.huffingtonpost.com/2015/06/28/donald-trump-gay-marriage_n_7681570.html\" target=\"_blank\"\u003e“traditional marriage”\u003c/a\u003e. \u003c/p\u003e\n\n\u003cp\u003eThe decision was monumental. \u003cem\u003eObergefell v. Hodges\u003c/em\u003e will go down in history among other famous United States Supreme Court cases like \u003cem\u003eBrown v. Board of Education of Topeka\u003c/em\u003e and \u003cem\u003eRoe v. Wade\u003c/em\u003e. But it is just the beginning of the reforms that need to be made in this country in order for people of all genders to be considered equal and included. This same year, the \u003ca href=\"http://thinkprogress.org/lgbt/2015/10/31/3718110/houston-hero-endorsements/\" target=\"_blank\"\u003eHouston Equal Rights Ordinance\u003c/a\u003e, which promised nondiscrimination protection on a number of bases including race, religion, sex, disability and gender identity, was voted down. Clearly, \u003cem\u003eObergefell v. Hodges\u003c/em\u003e is merely the beginning of a long road to freedom and equality.\u003c/p\u003e\n",
+        "entryText": "\u003cp\u003eThe Supreme Court of the United States sprinkled a bit of light and hope on a dark and tension-filled 2015 when they ruled on June 26 that all American citizens, regardless of sexual orientation or gender, have the right to marry the person they love. \u003cem\u003eObergefell v. Hodges\u003c/em\u003e stands out as a victory for the United States in a year when innocent lives were taken by \u003ca href=\"http://www.theguardian.com/us-news/ng-interactive/2015/jun/01/the-counted-police-killings-us-database\" target=\"_blank\"\u003ecorrupt police forces in the name of discrimination\u003c/a\u003e , in a year when gunfire \u003ca href=\"http://www.gunviolencearchive.org\" target=\"_blank\"\u003etore through the country\u003c/a\u003e and in a year where a legitmate contender for the White House called for a \u003ca href=\"http://www.nytimes.com/video/us/100000004080249/trump-reaffirms-urge-to-halt-muslims.html\" target=\"_blank\"\u003e“total and complete shutdown of Muslims entering the United States.”\u003c/a\u003e \u003c/p\u003e\n\n\u003cp\u003e\u003cem\u003eObergefell v. Hodges\u003c/em\u003e, which came after decades of hard-fought and persistent civil rights activism, was welcomed with tearful embraces, joyful parades, and celebrations from people of all genders, sexual orientations, ages, races and ethnicities across the nation and the world.\u003c/p\u003e\n\n\u003cp\u003eThe decision was also unsurprisingly met with resistance and protest. Kentucky court clerk Kim Davis famously spent five days in jail for refusing to issue same-sex marriage licenses. Justice Antonin Scalia called the Court’s decision a “threat to American democracy.”\n\u003c/p\u003e\n\n\u003cp\u003eResistance to the decision is part of a wave of conservatism in the United States that reflects a trend of asymmetrical political polarization. While the left moves farther to the left, the right moves even more extremely farther to the right. Conservative political extremism has \u003ca href=\"http://www.vox.com/2015/8/7/9115493/tea-party-donald-trump\" target=\"_blank\"\u003ebirthed movements like the Tea Party and presidential candidates like Donald Trump\u003c/a\u003e, who is a staunch supporter of what he refers to as \u003ca href=\"http://www.huffingtonpost.com/2015/06/28/donald-trump-gay-marriage_n_7681570.html\" target=\"_blank\"\u003e“traditional marriage.”\u003c/a\u003e \u003c/p\u003e\n\n\u003cp\u003eThe decision was monumental. \u003cem\u003eObergefell v. Hodges\u003c/em\u003e will go down in history among other famous United States Supreme Court cases like \u003cem\u003eBrown v. Board of Education of Topeka\u003c/em\u003e and \u003cem\u003eRoe v. Wade\u003c/em\u003e. But it is just the beginning of the reforms that need to be made in this country in order for people of all genders to be considered equal and included. This same year, the \u003ca href=\"http://thinkprogress.org/lgbt/2015/10/31/3718110/houston-hero-endorsements/\" target=\"_blank\"\u003eHouston Equal Rights Ordinance\u003c/a\u003e, which promised nondiscrimination protection on a number of bases including race, religion, sex, disability and gender identity, was voted down. Clearly, \u003cem\u003eObergefell v. Hodges\u003c/em\u003e is merely the beginning of a long road to freedom and equality.\u003c/p\u003e\n",
         "media": "https://upload.wikimedia.org/wikipedia/commons/7/75/Celebrating_a_new_America_-lovewins_58242_(18588276403).jpg",
         "objectId": "EngYWeLl0G",
         "pullquote": "Kentucky court clerk Kim Davis famously spent five days in jail for refusing to issue same-sex marriage licenses. Justice Antonin Scalia called the Court’s decision a “threat to American democracy.”",
+        "recs": [
+            {
+                "author": "Amal Ahmed",
+                "subject": "Keystone XL",
+                "slug": "keystone-xl",
+                "topic": "Politics"
+            },
+            {
+                "author": "Sarah Turbin",
+                "subject": "Snapchat",
+                "slug": "snapchat",
+                "topic": "Media"
+            },
+            {
+                "author": "Matthew Zhang",
+                "subject": "Pluto",
+                "slug": "pluto",
+                "topic": "Science"
+            }
+        ],
         "subject": "Same-sex marriage",
         "slug": "same-sex-marriage",
         "topic": "Politics",
@@ -85,6 +205,26 @@
         "media": "http://media.northbynorthwestern.com.s3.amazonaws.com/uploads/2015/12/28/Screenshot_2015-12-28_13.13.38.png",
         "objectId": "EonF94shur",
         "pullquote": "Keystone XL may be a thing of the past, but climate change is still very much a part of our future.",
+        "recs": [
+            {
+                "author": "Sarah Turbin",
+                "subject": "Snapchat",
+                "slug": "snapchat",
+                "topic": "Media"
+            },
+            {
+                "author": "Matthew Zhang",
+                "subject": "Pluto",
+                "slug": "pluto",
+                "topic": "Science"
+            },
+            {
+                "author": "Carrie Twersky",
+                "subject": "Amy Schumer",
+                "slug": "amy-schumer",
+                "topic": "Comedy"
+            }
+        ],
         "subject": "Keystone XL",
         "slug": "keystone-xl",
         "topic": "Politics",
@@ -97,7 +237,27 @@
         "entryText": "\u003cp\u003eIt’s a question almost every student with a study break and a front-facing camera has attempted to answer: If a picture’s worth a thousand words, then what’s the asking price for a six-second up-the-nose selfie with the ugliest Evanston-related geofilter slapped on top? A good chunk of money. Even though news broke last month that one of Snapchat Inc.’s big investors lowered the \u003ca href=\"http://qz.com/546162/snapchats-lofty-16-billion-valuation-takes-a-hit/\" target=\"_blank\"\u003evalue of its stake\u003c/a\u003e in the company by 25 percent, \u003ca href=\"http://www.ibtimes.com/snapchat-outranks-instagram-fastest-growing-social-network-american-millennials-2220089\" target=\"_blank\"\u003ethe company’s still worth about $12 billion, and it continues to grow\u003c/a\u003e.\u003c/p\u003e\n\n\u003cp\u003eIn 2015, Snapchat’s a far cry from its days as a germ of an idea that originated between a \u003ca href=\"https://49.media.tumblr.com/7c523bdbd7f1c967df998cde174657cd/tumblr_n02z95NSeq1sp7ha5o1_500.gif\" target=\"_blank\"\u003efew friends\u003c/a\u003e on Stanford University’s campus four years ago. Just last year the platform increased by more than half, and it’s now \u003ca href=\"http://www.webpagefx.com/blog/general/how-much-has-snapchat-really-grown-in-4-years-infographic/\" target=\"_blank\"\u003egrown\u003c/a\u003e to have an estimated 200 million daily users. In January, it rolled out Discover, a section of the app that’s dedicated to displaying content from a \u003ca href=\"http://fortune.com/2015/09/21/snapchat-discover-publishers/\" target=\"_blank\"\u003eselect number\u003c/a\u003e of media outlets - places like Cosmopolitan, ESPN, Comedy Central and National Geographic have joined the Snapchat squad thus far. And, in September, the company introduced Lenses, the handy little feature that has let users take selfies with interactive filters on them. You can thank the team headed by Snapchat’s CEO, Evan Spiegel, for cornering the market when it comes to choosing between sending a video of yourself looking about 50 years older or puking an animated rainbow.\u003c/p\u003e\n\n\u003cp\u003e2015 was good to Spiegel too. Way \u003ca href=\"https://media.giphy.com/media/3TWrXEnOPa0Yo/giphy.gif=\"_blank\"\u003ebetter\u003c/a\u003e than his \u003ca href=\"http://www.google.com\" target=\"_blank\"\u003elast year\u003c/a\u003e, at least. The 25-year-old landed on the Forbes 400 list as the world’s youngest \u003ca href=\"http://genyes.my/wp-content/uploads/2014/11/GIF-2.gif\" target=\"_blank\"\u003ebillionaire\u003c/a\u003e, and he was the cover story for L’Uomo Vogue’s October issue. Lucky for us, Snapchat’s the only place where photos like \u003ca href=\"https://qph.is.quoracdn.net/main-qimg-f8de7d4b4025ba64af73011ea5c2654c?convert_to_webp=true\" target=\"_blank\"\u003ethis one\u003c/a\u003e are temporary.\u003c/p\u003e",
         "media": "\u003ciframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/vQXgiQqMTXo\" frameborder=\"0\" allowfullscreen\u003e\u003c/iframe\u003e",
         "objectId": "I4hNi7st5z",
-        "pullquote": "It’s a question almost every student with a study break and a front-facing camera has attempted to answer: If a picture’s worth a thousand words, then what’s the asking price for a six-second up-the-nose selfie with the ugliest Evanston-related geofilter slapped on top? A good chunk of money. Even though news broke last month that one of Snapchat Inc.’s big investors lowered the \u003ca href=\"http://qz.com/546162/snapchats-lofty-16-billion-valuation-takes-a-hit/\" target=\"_blank\"\u003evalue of its stake\u003c/a\u003e in the company by 25 percent, \u003ca href=\"http://www.ibtimes.com/snapchat-outranks-instagram-fastest-growing-social-network-american-millennials-2220089\" target=\"_blank\"\u003ethe company’s still worth about $12 billion, and it continues to grow\u003c/a\u003e.  In 2015, Snapchat’s a far cry from its days as a germ of an idea that originated between a \u003ca href=\"https://49.media.tumblr.com/7c523bdbd7f1c967df998cde174657cd/tumblr_n02z95NSeq1sp7ha5o1_500.gif\" target=\"_blank\"\u003efew friends\u003c/a\u003e on Stanford University’s campus four years ago. Just last year the platform increased by more than half, and it’s now \u003ca href=\"http://www.webpagefx.com/blog/general/how-much-has-snapchat-really-grown-in-4-years-infographic/\" target=\"_blank\"\u003egrown\u003c/a\u003e to have an estimated 200 million daily users. In January, it rolled out Discover, a section of the app that’s dedicated to displaying content from a \u003ca href=\"http://fortune.com/2015/09/21/snapchat-discover-publishers/\" target=\"_blank\"\u003eselect number\u003c/a\u003e of media outlets - places like Cosmopolitan, ESPN, Comedy Central and National Geographic have joined the Snapchat squad thus far. And, in September, the company introduced Lenses, the handy little feature that has let users take selfies with interactive filters on them. You can thank the team headed by Snapchat’s CEO, Evan Spiegel, for cornering the market when it comes to choosing between sending a video of yourself looking about 50 years older or puking an animated rainbow.  2015 was good to Spiegel too. Way \u003ca href=\"https://media.giphy.com/media/3TWrXEnOPa0Yo/giphy.gif=\"_blank\"\u003ebetter\u003c/a\u003e than his \u003ca href=\"http://www.google.com\" target=\"_blank\"\u003elast year\u003c/a\u003e, at least. The 25-year-old landed on the Forbes 400 list as the world’s youngest \u003ca href=\"http://genyes.my/wp-content/uploads/2014/11/GIF-2.gif\" target=\"_blank\"\u003ebillionaire\u003c/a\u003e, and he was the cover story for L’Uomo Vogue’s October issue. Lucky for us, Snapchat’s the only place where photos like \u003ca href=\"https://qph.is.quoracdn.net/main-qimg-f8de7d4b4025ba64af73011ea5c2654c?convert_to_webp=true\" target=\"_blank\"\u003ethis one\u003c/a\u003e are temporary.",
+        "pullquote": "Just last year the platform increased by more than half, and it’s now grown <http://www.webpagefx.com/blog/general/how-much-has-snapchat-really-grown-in-4-years-infographic/> to have an estimated 200 million daily users.",
+        "recs": [
+            {
+                "author": "Matthew Zhang",
+                "subject": "Pluto",
+                "slug": "pluto",
+                "topic": "Science"
+            },
+            {
+                "author": "Carrie Twersky",
+                "subject": "Amy Schumer",
+                "slug": "amy-schumer",
+                "topic": "Comedy"
+            },
+            {
+                "author": "Isabella Jiao",
+                "subject": "<em>Hamilton</em>",
+                "slug": "hamilton",
+                "topic": "Entertainment"
+            }
+        ],
         "subject": "Snapchat",
         "slug": "snapchat",
         "topic": "Media",
@@ -111,6 +271,26 @@
         "media": "\u003ciframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/B0xkupKwjfM\" frameborder=\"0\" allowfullscreen\u003e\u003c/iframe\u003e",
         "objectId": "L3SKgjNtBz",
         "pullquote": "Pluto, once only seen as a fuzzy gray blur, would now greet Earth with a heart, revealing a richly complex world never explored before.",
+        "recs": [
+            {
+                "author": "Carrie Twersky",
+                "subject": "Amy Schumer",
+                "slug": "amy-schumer",
+                "topic": "Comedy"
+            },
+            {
+                "author": "Isabella Jiao",
+                "subject": "<em>Hamilton</em>",
+                "slug": "hamilton",
+                "topic": "Entertainment"
+            },
+            {
+                "author": "Tanner Howard",
+                "subject": "Aziz Ansari",
+                "slug": "aziz-ansari",
+                "topic": "Comedy"
+            }
+        ],
         "subject": "Pluto",
         "slug": "pluto",
         "topic": "Science",
@@ -124,9 +304,29 @@
         "media": "\u003ciframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/2MxnhBPoIx4\" frameborder=\"0\" allowfullscreen\u003e\u003c/iframe\u003e",
         "objectId": "OxhjGoj3bf",
         "pullquote": "She doesn’t care what anyone else thinks when she drinks a whole bottle of wine on stage at the Apollo, and neither should you.",
+        "recs": [
+            {
+                "author": "Isabella Jiao",
+                "subject": "<em>Hamilton</em>",
+                "slug": "hamilton",
+                "topic": "Entertainment"
+            },
+            {
+                "author": "Tanner Howard",
+                "subject": "Aziz Ansari",
+                "slug": "aziz-ansari",
+                "topic": "Comedy"
+            },
+            {
+                "author": "Mia Zanzucchi",
+                "subject": "<em>Parks and Recreation</em>",
+                "slug": "parks-and-rec",
+                "topic": "Television"
+            }
+        ],
         "subject": "Amy Schumer",
         "slug": "amy-schumer",
-        "topic": "Entertainment",
+        "topic": "Comedy",
         "updatedAt": "2015-12-29T06:01:31.036Z"
     },
 	{
@@ -137,7 +337,27 @@
         "media": "\u003ciframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/0wboCdgzLHg\" frameborder=\"0\" allowfullscreen\u003e\u003c/iframe\u003e",
         "objectId": "QLtr8IyOHx",
         "pullquote": "If you can’t imagine hip-hop and one of the nation’s founding father being linked together, watch “Hamilton” and be convinced. ",
-        "subject": "Hamilton",
+        "recs": [       
+            {
+                "author": "Tanner Howard",
+                "subject": "Aziz Ansari",
+                "slug": "aziz-ansari",
+                "topic": "Comedy"
+            },
+            {
+                "author": "Mia Zanzucchi",
+                "subject": "<em>Parks and Recreation</em>",
+                "slug": "parks-and-rec",
+                "topic": "Television"
+            },
+            {
+                "author": "Jasper Scherer",
+                "subject": "The ending of <em>Mad Men</em>",
+                "slug": "mad-men",
+                "topic": "Television"
+            }
+        ],
+        "subject": "<em>Hamilton</em>",
         "slug": "hamilton",
         "topic": "Entertainment",
         "updatedAt": "2015-12-29T02:47:12.698Z"
@@ -150,9 +370,29 @@
         "media": "\u003ciframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/6bFvb3WKISk\" frameborder=\"0\" allowfullscreen\u003e\u003c/iframe\u003e",
         "objectId": "QnqbUExMcl",
         "pullquote": "His clearheaded understanding of our world makes him one of the few celebrities that can effectively channel millennial angst into biting, intelligent pop culture.",
+        "recs": [
+            {
+                "author": "Mia Zanzucchi",
+                "subject": "<em>Parks and Recreation</em>",
+                "slug": "parks-and-rec",
+                "topic": "Television"
+            },
+            {
+                "author": "Jasper Scherer",
+                "subject": "The ending of <em>Mad Men</em>",
+                "slug": "mad-men",
+                "topic": "Television"
+            },
+            {
+                "author": "Candace Butera",
+                "subject": "FIFA scandal",
+                "slug": "fifa-scandal",
+                "topic": "Sports"
+            }
+        ],
         "subject": "Aziz Ansari",
         "slug": "aziz-ansari",
-        "topic": "Entertainment",
+        "topic": "Comedy",
         "updatedAt": "2015-12-29T04:16:18.804Z"
     },
 	{
@@ -163,9 +403,29 @@
         "media": "\u003ciframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/6r17Ez9V3AQ\" frameborder=\"0\" allowfullscreen\u003e\u003c/iframe\u003e",
         "objectId": "T8MSpcfvKX",
         "pullquote": "Nominated for dozens of awards for almost every season – including a handful of Emmys and Golden Globe Awards – the show seemed to improve as time went on.",
-        "subject": "Parks and Recreation",
+        "recs": [
+            {
+                "author": "Jasper Scherer",
+                "subject": "The ending of <em>Mad Men</em>",
+                "slug": "mad-men",
+                "topic": "Television"
+            },
+            {
+                "author": "Candace Butera",
+                "subject": "FIFA scandal",
+                "slug": "fifa-scandal",
+                "topic": "Sports"
+            },
+            {
+                "author": "Tyler Daswick",
+                "subject": "<em>Grantland</em>",
+                "slug": "grantland",
+                "topic": "Media"
+            }
+        ],
+        "subject": "<em>Parks and Recreation</em>",
         "slug": "parks-and-rec",
-        "topic": "Entertainment",
+        "topic": "Television",
         "updatedAt": "2015-12-29T05:40:03.726Z"
     },
 	{
@@ -176,7 +436,27 @@
         "media": "\u003ciframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/GALMX2BO5ps\" frameborder=\"0\" allowfullscreen\u003e\u003c/iframe\u003e",
         "objectId": "TBNgTUIzjf",
         "pullquote": "But for all my qualms about Don, I also saw a compassionate side throughout the remarkable 92-episode run. ",
-        "subject": "The ending of Mad Men",
+        "recs": [
+            {
+                "author": "Candace Butera",
+                "subject": "FIFA scandal",
+                "slug": "fifa-scandal",
+                "topic": "Sports"
+            },
+            {
+                "author": "Tyler Daswick",
+                "subject": "<em>Grantland</em>",
+                "slug": "grantland",
+                "topic": "Media"
+            },
+            {
+                "author": "Lucy Wang",
+                "subject": "Adele",
+                "slug": "adele",
+                "topic": "Music"
+            }
+        ],
+        "subject": "The ending of <em>Mad Men</em>",
         "slug": "mad-men",
         "topic": "Television",
         "updatedAt": "2015-12-29T03:43:41.483Z"
@@ -189,6 +469,26 @@
         "media": "\u003ciframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/tkop8bgMs9M\" frameborder=\"0\" allowfullscreen\u003e\u003c/iframe\u003e",
         "objectId": "TIwOrt0fwY",
         "pullquote": "Prior to these investigations, few allegations of corruption involving FIFA had led to impactful consequences on the organization. ",
+        "recs": [
+            {
+                "author": "Tyler Daswick",
+                "subject": "<em>Grantland</em>",
+                "slug": "grantland",
+                "topic": "Media"
+            },
+            {
+                "author": "Lucy Wang",
+                "subject": "Adele",
+                "slug": "adele",
+                "topic": "Music"
+            },
+            {
+                "author": "Rose McBride",
+                "subject": "Blackhawks Threepeat",
+                "slug": "blackhawks",
+                "topic": "Sports"
+            }
+        ],
         "subject": "FIFA scandal",
         "slug": "fifa-scandal",
         "topic": "Sports",
@@ -202,7 +502,27 @@
         "media": "https://s0.wp.com/wp-content/themes/vip/espn-grantland/img/grantland-front-door.jpg",
         "objectId": "cdPhi1meHw",
         "pullquote": "Modern journalism has every publication trying to spoon-feed us baby food, but Grantland actually produced a satisfying plate.",
-        "subject": "Grantland",
+        "recs": [
+            {
+                "author": "Lucy Wang",
+                "subject": "Adele",
+                "slug": "adele",
+                "topic": "Music"
+            },
+            {
+                "author": "Rose McBride",
+                "subject": "Blackhawks Threepeat",
+                "slug": "blackhawks",
+                "topic": "Sports"
+            },
+            {
+                "author": "Preetisha Sen",
+                "subject": "Drake",
+                "slug": "drake",
+                "topic": "Music"
+            }
+        ],
+        "subject": "<em>Grantland</em>",
         "slug": "grantland",
         "topic": "Media",
         "updatedAt": "2015-12-27T20:33:54.995Z"
@@ -215,9 +535,29 @@
         "media": "\u003ciframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/YQHsXMglC9A\" frameborder=\"0\" allowfullscreen\u003e\u003c/iframe\u003e",
         "objectId": "io2fc1kLyb",
         "pullquote": "She might be years away from her heartbreak of 19 and 21, but she can still break your heart with her falsetto words.",
+        "recs": [
+            {
+                "author": "Rose McBride",
+                "subject": "Blackhawks Threepeat",
+                "slug": "blackhawks",
+                "topic": "Sports"
+            },
+            {
+                "author": "Preetisha Sen",
+                "subject": "Drake",
+                "slug": "drake",
+                "topic": "Music"
+            },
+            {
+                "author": "Julia Song",
+                "subject": "Emojis",
+                "slug": "emojis",
+                "topic": "Media"
+            }
+        ],
         "subject": "Adele",
         "slug": "adele",
-        "topic": "Entertainment",
+        "topic": "Music",
         "updatedAt": "2015-12-28T18:37:25.806Z"
     },
 	{
@@ -228,6 +568,26 @@
         "media": "\u003ciframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/HLFVA9MSzQk\" frameborder=\"0\" allowfullscreen\u003e\u003c/iframe\u003e",
         "objectId": "kiT9OiwbXb",
         "pullquote": "\"We share this with you, the best fans in the world. Maybe the only way it does get better is if we win four! Let's go!”",
+        "recs": [
+            {
+                "author": "Preetisha Sen",
+                "subject": "Drake",
+                "slug": "drake",
+                "topic": "Music"
+            },
+            {
+                "author": "Julia Song",
+                "subject": "Emojis",
+                "slug": "emojis",
+                "topic": "Media"
+            },
+            {
+                "author": "Malloy Moseley",
+                "subject": "The Dress",
+                "slug": "the-dress",
+                "topic": "Entertainment"
+            }
+        ],
         "subject": "Blackhawks Threepeat",
         "slug": "blackhawks",
         "topic": "Sports",
@@ -241,9 +601,29 @@
         "media": "\u003ciframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/uxpDa-c-4Mc\" frameborder=\"0\" allowfullscreen\u003e\u003c/iframe\u003e",
         "objectId": "oE23XJ7Hj5",
         "pullquote": "Good job this year, Drake – I’m so I’m so I’m so proud of you.",
+        "recs": [
+            {
+                "author": "Julia Song",
+                "subject": "Emojis",
+                "slug": "emojis",
+                "topic": "Media"
+            },
+            {
+                "author": "Malloy Moseley",
+                "subject": "The Dress",
+                "slug": "the-dress",
+                "topic": "Entertainment"
+            },
+            {
+                "author": "Candace Butera",
+                "subject": "Women's World Cup",
+                "slug": "uswnt",
+                "topic": "Sports"
+            }
+        ],
         "subject": "Drake",
         "slug": "drake",
-        "topic": "Entertainment",
+        "topic": "Music",
         "updatedAt": "2015-12-29T03:45:20.928Z"
     },
     {
@@ -253,7 +633,27 @@
         "entryText": "\u003cp\u003eThey’re here to stay, with more on the way.\u003c/p\u003e\u003cp\u003eYou know you can’t \u0026#x1F4AD; back to a \u0026#x1F550; when you didn’t use emojis daily in texts, on Facebook, or Instagram, and not just because you’re \u0026#x1F525;cely, unhealthily loyal to Thirsty Thursdays \u0026#x1F4a6; and Freaky Fridays \u0026#x1F47B; (I hear New Year’s resolutions a calling). Unless you are a non-smartphone user, a rare specimen on campus, you’d probably be lost without the emotional faces, hearts and \u003ca href=\"http://exploregram.com/its-seriously-fucked-up-why-do-we-need-12-train-emojis-ive/\" target=\"_blank\"\u003e12 train\u003c/a\u003e emojis. \u003c/p\u003e\u003cp\u003eThe 2011 iOS 5 update first included the \u003ca href=\"http://9to5mac.com/2011/06/08/standard-emoji-keyboard-arrives-to-ios-5-heres-how-to-enable-it/\" target=\"_blank\"\u003eemoji keyboard\u003c/a\u003e option, aka Apple’s way of recognizing emoji\u003ca href=\"http://www.theguardian.com/commentisfree/2015/apr/22/racially-diverse-emoji-are-a-nice-idea-but-will-anyone-use-them\" target=\"_blank\"\u003e\u003c/a\u003es as equals to the 32 languages supported on its devices. \u0026#x1F60E; In 2015, there are an impressive \u003ca href=\"http://emojipedia.org/faq/\" target=\"_blank\"\u003e1,620 emojis supported by iOS 9.1 and 845 widely-supported emojis\u003c/a\u003e. I might cry when the avocado emoji is \u003ca href=\"http://unicode.org/emoji/charts/emoji-candidates.html\" target=\"_blank\"\u003epotentially\u003c/a\u003e released next June. Emojis have taken this affirmation and thrived into their own language: “I’ll meet you at Norbucks \u0026#x1F60F;”, “Why is Fran’s closed today \u0026#x1F62D; \u0026#x1F621;”, “\u0026#x1F369; \u0026#x1F369; \u0026#x1F369;”. They’re visual footnote-less footnotes. \u0026#x1F60A;\u003c/p\u003e\u003cp\u003eCue the \u003ca href=\"http://www.nytimes.com/2015/10/21/technology/how-emojis-find-their-way-to-phones.html?_r=0\" target=\"_blank\"\u003eextremely legitimate\u003c/a\u003e Unicode Consortium, which has been creating and consolidating code for emojis across platforms since the 1990s. The group introduced \u003ca href=\"http://www.usatoday.com/story/tech/2015/04/08/diverse-emoji-in-i0s38/25478353/\" target=\"_blank\"\u003eracially diverse emojis\u003c/a\u003e through Apple’s iOS 8.3 update in April, soon followed by other platforms. The new skin colors were met with \u003ca href=\"http://www.theguardian.com/commentisfree/2015/apr/22/racially-diverse-emoji-are-a-nice-idea-but-will-anyone-use-them\" target=\"_blank\"\u003emixed\u003c/a\u003e \u003ca href=\"https://www.washingtonpost.com/posteverything/wp/2015/04/10/how-apples-new-multicultural-emojis-are-more-racist-than-before/\" target=\"_blank\"\u003ereviews\u003c/a\u003e, with many critics noting how racially diverse emojis are unrealistic and create room for more racist comments than their absence. The company also added 32 country flags to attempt to broaden its inclusivity. Meanwhile, there are around 200 countries in the world.\u003c/p\u003e\u003cp\u003eThese digital faces made a further dent in the physical world when The Oxford Dictionaries chose \u0026#x1F602; (Face With Tears of Joy) as the \u003ca href=\"http://blog.oxforddictionaries.com/2015/11/word-of-the-year-2015-emoji/\" target=\"_blank\"\u003eWord of the Year 2015\u003c/a\u003e, the first time a non-alphabetized “word” was chosen. Among the given reasons were cultural relevance, frequency of usage and generational currency. \u0026#x1F4B8; In fact, a website keeps track of emoji usage on Twitter (at present, \u0026#x1F602; has been used in 1,039,052,577 tweets). Still, a corner of the Internet \u003ca href=\"https://twitter.com/ArwinWarrior/status/666626080929742848\" target=\"_blank\"\u003eexploded\u003c/a\u003e \u003ca href=\"https://twitter.com/haveigotnews/status/666583438468714496\" target=\"_blank\"\u003eover\u003c/a\u003e \u003ca href=\"https://twitter.com/ComedyCentralUK/status/666528600955486208\" target=\"_blank\"\u003ethe\u003c/a\u003e \u003ca href=\"https://twitter.com/TeaAndCopy/status/666539320577257476\" target=\"_blank\"\u003eannouncement\u003c/a\u003e. Read it and weep, y’all.\u003c/p\u003e\u003cp\u003eAnd now you can submit \u003ca href=\"http://www.unicode.org/emoji/selection.html\" target=\"_blank\"\u003enew emoji ideas to Unicode\u003c/a\u003e yourself! The guidelines are fairly intricate, but if you have time on your hands and really, really want a  _____ emoji in your future, nothing can stop you – except the Unicode Consortium.\u003c/p\u003e\u003cp\u003eBesides stirring up racial and cultural dialogue and maddening wordsnobs, emojis are made into cushions. Marketers use emojis to cater to our \u003ca href=\"https://www.washingtonpost.com/news/morning-mix/wp/2014/11/20/text-neck-is-becoming-an-epidemic-and-could-wreck-your-spine/\" target=\"_blank\"\u003etext neck\u003c/a\u003e generation. Even Hillary Clinton \u003ca href=\"http://time.com/3994876/hillary-clinton-student-debt-emoji/\" target=\"_blank\"\u003eattempted\u003c/a\u003e to talk to us through emojis this year. \u0026#x1F605; Whether you are a fan of the array of colorful images, emojis are carving out their place in our online-centric society. If you’re going through a quarter-life crisis and need a reminder of selfhood, peep your list of recently used emojis. Like your Netflix history, it might reveal more about your personality than you’re comfortable admitting. (a few of mine: \u0026#x1F60F; \u0026#x1F60C; \u0026#x1F31E; \u0026#x1F60E; \u0026#x1F62D; \u0026#x1F4A9; \u0026#x1F495; \u0026#x1F389; \u0026#x1F335;)\u003c/p\u003e",
         "media": "\u003ciframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/rPqd20tdncg\" frameborder=\"0\" allowfullscreen\u003e\u003c/iframe\u003e",
         "objectId": "sCpzN6orS3",
-        "pullquote": "Test",
+        "pullquote": "I might cry when the avocado emoji ispotentially <http://unicode.org/emoji/charts/emoji-candidates.html> released next June.",
+        "recs": [
+            {
+                "author": "Malloy Moseley",
+                "subject": "The Dress",
+                "slug": "the-dress",
+                "topic": "Entertainment"
+            },
+            {
+                "author": "Candace Butera",
+                "subject": "Women's World Cup",
+                "slug": "uswnt",
+                "topic": "Sports"
+            },
+            {
+                "author": "Madison Rossi",
+                "subject": "Taylor Swift",
+                "slug": "taylor-swift",
+                "topic": "Music"
+            }
+        ],
         "subject": "Emojis",
         "slug": "emojis",
         "topic": "Media",
@@ -267,6 +667,26 @@
         "media": "\u003ciframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/I0OPNOpU6SY\" frameborder=\"0\" allowfullscreen\u003e\u003c/iframe\u003e",
         "objectId": "sgt8cwPayq",
         "pullquote": "Black and Blue or White and Gold, a simple trick of lighting divided the internet into two distinct camps and drove people to madness in the process.",
+        "recs": [
+            {
+                "author": "Candace Butera",
+                "subject": "Women's World Cup",
+                "slug": "uswnt",
+                "topic": "Sports"
+            },
+            {
+                "author": "Madison Rossi",
+                "subject": "Taylor Swift",
+                "slug": "taylor-swift",
+                "topic": "Music"
+            },
+            {
+                "author": "Amal Ahmed",
+                "subject": "Syria",
+                "slug": "syria",
+                "topic": "Politics"
+            }
+        ],
         "subject": "The Dress",
         "slug": "the-dress",
         "topic": "Entertainment",
@@ -280,7 +700,27 @@
         "media": "\u003ciframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/M1CT3xQOfng\" frameborder=\"0\" allowfullscreen\u003e\u003c/iframe\u003e",
         "objectId": "wYHAhzvrhM",
         "pullquote": "After a 5-2 win over Japan, the USWNT became the first three-time FIFA Women’s World Cup winner.",
-        "subject": "The U.S. Women's National Team Wins the Women's World Cup",
+        "recs": [
+            {
+                "author": "Madison Rossi",
+                "subject": "Taylor Swift",
+                "slug": "taylor-swift",
+                "topic": "Music"
+            },
+            {
+                "author": "Amal Ahmed",
+                "subject": "Syria",
+                "slug": "syria",
+                "topic": "Politics"
+            },
+            {
+                "author": "Samuel Niiro",
+                "subject": "Summer of Trump",
+                "slug": "summer-of-trump",
+                "topic": "Politics"
+            }
+        ],
+        "subject": "Women's World Cup",
         "slug": "uswnt",
         "topic": "Sports",
         "updatedAt": "2015-12-29T06:00:22.253Z"
@@ -293,9 +733,29 @@
         "media": "\u003ciframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/QcIy9NiNbmo\" frameborder=\"0\" allowfullscreen\u003e\u003c/iframe\u003e",
         "objectId": "yY7FTbiUBd",
         "pullquote": "Swift also happened to win an Emmy, release three music videos and rule the charts as both a celebrity personality and a musician.",
+        "recs": [
+            {
+                "author": "Amal Ahmed",
+                "subject": "Syria",
+                "slug": "syria",
+                "topic": "Politics"
+            },
+            {
+                "author": "Samuel Niiro",
+                "subject": "Summer of Trump",
+                "slug": "summer-of-trump",
+                "topic": "Politics"
+            },
+            {
+                "author": "Jimmy Yook",
+                "subject": "<em>Inside Out</em>",
+                "slug": "inside-out",
+                "topic": "Movies"
+            }
+        ],
         "subject": "Taylor Swift",
         "slug": "taylor-swift",
-        "topic": "Entertainment",
+        "topic": "Music",
         "updatedAt": "2015-12-29T05:25:05.513Z"
     }
 ] }
