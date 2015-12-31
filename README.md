@@ -2,7 +2,7 @@ NBN Year in Media 2015
 ====================
 [NBN Year in Media 2015](http://apps.northbynorthwestern.com/year-in-media/2015/)
 
-# Installation and Development
+## Installation and Development
 
 ##### Install Middleman
 
@@ -20,7 +20,7 @@ NBN Year in Media 2015
 
 `bundle exec middleman build`
 
-# Post-Build
+## Post-Build
 
 If you're going to build the project, there are a few things you have to do manually afterwards in the /build folder:
 
