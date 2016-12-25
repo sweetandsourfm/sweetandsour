@@ -24,7 +24,6 @@ activate :directory_indexes
 
 # Build-specific configuration
 configure :build do
-  page "/article", :layout => "story.scss"
   page "/", :layout => "index.scss"
   # For example, change the Compass output style for deployment
   # activate :minify_css
@@ -34,17 +33,6 @@ configure :build do
 
   # Enable cache buster
   activate :asset_hash
-
-  data.entry.results.each do |entry|
-    proxy "/story/#{entry.slug}.html", "/story.html", :locals => { 
-      :entry_name => entry.subject,
-      :entry_author => entry.author,
-      :entry_pullquote => entry.pullquote,
-      :entry_media => entry.media,
-      :entry_body => entry.entryText,
-      :entry_recs => entry.recs
-      }, :ignore => true
-  end
 
   # Use relative URLs
   activate :relative_assets
