@@ -1,0 +1,60 @@
+@charset "utf-8";
+// Font variables
+$text-stack: 'Open Sans', Helvetica, sans-serif;
+$gray: #e3e3e3;
+$pink: #f74160;
+$off-white: #fafafa;
+$off-black: #2a2a2a;
+$white: #fff;
+
+.episode-details {
+  max-width: 100%;
+  width: 40rem;
+  margin: 0 auto;
+  margin-bottom: 4rem;
+  p, ul {
+    font-size: 1.125rem;
+    line-height: 1.4;
+  }
+  h3 {
+    padding-bottom: 5px;
+    border-bottom: 1px solid $gray;
+  }
+}
+
+.episode-description {
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+
+.episode-label {
+  border: 2px solid $pink;
+  padding: 5px 10px;
+  border-radius: 3px;
+  color: $pink;
+}
+
+.back-to-episodes {
+  margin: 2rem 0;
+  a {
+    color: $pink;
+    font-weight: bold;
+    border-bottom: 3px solid $pink;
+    &:hover {
+      text-decoration: none;
+      color: $off-black;
+      border-bottom-color: $off-black;
+    }
+  }
+}
+
+.show-notes {
+  margin-top: 2rem;
+}
+
+@media screen and (max-width: 760px) {
+  .episode-details {
+    padding: 0 2rem;;
+    width: auto;
+  }
+}

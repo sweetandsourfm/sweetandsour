@@ -13,7 +13,8 @@ function readData(data, tabletop) {
     var title = '<h2>' + ep.name + '</h2>';
     var description = '<p>' + ep.description + '</p>';
     var embed = '<div class="responsive-object"><a class="embedly-card" href="' + ep.link + '">' + ep.link + '</a></div>'
-    var episode = '<div class="episode">' + title + description + embed + '</div>';
+    var showNotes = '<div class="see-show-notes"><a href="/episode">See show notes</a></div>';
+    var episode = '<div class="episode">' + title + description + showNotes + embed + '</div>';
     $('.episodes').append(episode);
   });
 }

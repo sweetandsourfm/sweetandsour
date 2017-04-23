@@ -1,0 +1,31 @@
+---
+layout: episode
+title: episodes | sweet and sour
+---
+<header class="site-header">
+  <p><a href="/about">about</a></p>
+  <p><a href="/episodes" class="active-nav">episodes</a></p>
+</header>
+<div class="episode-details">
+  <div class="episode-description">
+    <span class="episode-label">Episode <%= episode_num %></span>
+    <h2><%= episode_name %></h2>
+    <div class="responsive-object">
+      <a class="embedly-card" href=<%= episode_link %> ></a>
+    </div>
+  </div>
+  <div class="episode-notes">
+    <h3>Highlights</h3>
+    <%= episode_highlights %>
+    <% if episode_notes %>
+      <div class="show-notes">
+        <h3>Show notes</h3>
+        <%= episode_notes %>
+      </div>
+    <% end %>
+    <div class="back-to-episodes">
+      <h4><a href="/episodes">Back to episodes</a></h4>
+    </div>
+  </div>
+</div>
+<script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>

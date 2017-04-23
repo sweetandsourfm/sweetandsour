@@ -7,6 +7,10 @@ $off-white: #fafafa;
 $off-black: #2a2a2a;
 $white: #fff;
 
+body {
+  font-size: 16px;
+}
+
 header {
   display: flex;
   justify-content: flex-end;
@@ -39,16 +43,22 @@ body {
   height: calc(100vh - 75px);
 }
 
-.episodes, .container {
+.container {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
 
-.episodes {
-  padding: 0px 20px;
-  margin-bottom: 10px;
+.episodes, .about {
+  max-width: 100%;
+  width: 40rem;
+  margin: 0 auto;
+  margin-bottom: 4rem;
+  p, ul {
+    font-size: 1.125rem;
+    line-height: 1.4;
+  }
   h2 {
     font-weight: 600;
     padding-bottom: 5px;
@@ -56,9 +66,12 @@ body {
   }
 }
 
+.see-show-notes {
+  margin: 1rem 0;
+}
+
 .episode {
-  max-width: 60%;
-  margin: 0px 10px;
+  margin-bottom: 2rem;
 }
 
 .tagline {
@@ -101,13 +114,6 @@ a {
 }
 
 .about {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  max-width: 60%;
-  margin: 0 auto;
-  margin-bottom: 1rem;
-
   h2 {
     font-weight: 600;
     padding-bottom: 5px;
@@ -125,21 +131,49 @@ a {
   }
 }
 
-svg {
+.logo {
   margin-bottom: 1em;
+}
+
+footer {
+  height: 5rem;
+  background-color: $pink;
+  color: $white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .social-icon {
+    margin-right: .5rem;
+    a {
+      color: $white;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+    &:last-of-type {
+      margin-right: 0;
+    }
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+  .icon {
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+    margin-bottom: 0;
+  }
 }
 
 @media screen and (max-width: 760px) {
   svg {
     width: 50%;
   }
-}
-
-@media screen and (max-width: 600px) {
-  .episode {
-    max-width: 100%;
-  }
-  .about {
-    max-width: 90%;
+  .episodes, .about {
+    padding: 0 2rem;;
+    width: auto;
   }
 }

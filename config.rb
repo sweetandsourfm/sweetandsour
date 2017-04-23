@@ -34,6 +34,17 @@ configure :build do
   # Enable cache buster
   activate :asset_hash
 
+  data.episodes.episodes.each_with_index do |episode, index|
+    proxy "/episodes/#{index}.html", "/episode.html", :locals => { 
+      :episode_num => index,
+      :episode_name => episode.name,
+      :episode_link => episode.link,
+      :episode_description => episode.description,
+      :episode_highlights => episode.highlights,
+      :episode_notes => episode.notes
+      }, :ignore => true
+  end
+
   # Use relative URLs
   activate :relative_assets
 

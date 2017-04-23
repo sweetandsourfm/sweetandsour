@@ -7,5 +7,18 @@ title: episodes | sweet and sour
   <p><a href="/episodes" class="active-nav">episodes</a></p>
 </header>
 <div class="episodes">
+  <% data.episodes.episodes.each_with_index do |e, index| %>
+    <div class="episode">
+      <h2><%= e.name %></h2>
+      <p><%= e.description %></p>
+      <% if e.highlights %>
+        <% notes_link = "#{index}/" %>
+        <div class="see-show-notes">
+          <a href=<%= notes_link %> >See show notes</a>
+        </div>
+      <% end %>
+      <div class="responsive-object"><a class="embedly-card" href= <%= e.link %> ></a></div>
+    </div>
+  <% end %>
 </div>
 <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
