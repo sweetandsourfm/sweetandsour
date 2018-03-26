@@ -3,6 +3,8 @@
 $text-stack: 'Open Sans', Helvetica, sans-serif;
 $gray: #e3e3e3;
 $pink: #f74160;
+$light-pink: #fff3f5;
+$dark-pink: #fec7d0;
 $off-white: #fafafa;
 $off-black: #2a2a2a;
 $white: #fff;
@@ -13,11 +15,21 @@ body {
 
 header {
   display: flex;
-  justify-content: flex-end;
   height: 75px;
+  flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
-  p {
-    margin-right: 1.25rem;
+  justify-content: flex-start;
+  padding: 0 3rem;
+  ul {
+    display: flex;
+    flex: 1;
+    list-style: none;
+    text-align: left;
+    padding: 0;
+    li {
+      margin-right: 1.25rem;
+    }
   }
   a {
     color: $off-black;
@@ -25,13 +37,43 @@ header {
     &:hover {
       text-decoration: none;
       color: $pink;
-      border-bottom: 3px solid $pink;
+      // border-bottom: 3px solid $pink;
     }
   }
-
+  .site-header__logo {
+    font-family: 'Arizonia', cursive;
+    font-size: 2.5rem;
+    flex: 1;
+    text-align: center;
+  }
   .active-nav {
     color: $pink;
     border-bottom: 3px solid $pink;
+  }
+  .site-header__icons {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    .social-icon {
+      margin-right: .75rem;
+      &:last-of-type {
+        margin-right: 0;
+      }
+    }
+    .icon {
+      display: inline-block;
+      width: 1.5rem;
+      height: 1.5rem;
+      stroke-width: 0;
+      stroke: currentColor;
+      fill: currentColor;
+      margin-bottom: 0;
+      a {
+        &:hover {
+          border-bottom: none;
+        }
+      }
+    }
   }
 }
 
@@ -40,14 +82,12 @@ body {
 }
 
 .container {
-  height: calc(100vh - 75px);
-}
-
-.container {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 2rem 0;
 }
 
 .episodes, .about {
@@ -75,11 +115,15 @@ body {
 }
 
 .tagline {
-  text-align: center;
   padding-bottom: 20px;
+  max-width: 35%;
+  margin-left: 5rem;
   p {
-      margin: 0;
+    margin: 0;
+    &:last-of-type {
+      margin-top: .75rem;
     }
+  }
 }
 
 a {
@@ -91,10 +135,11 @@ a {
 }
 
 .btn {
-  background-color: $pink;
+  background-color: $dark-pink;
+  border: none;
   padding: 10px 15px;
-  margin-top: 0;
-  font-weight: 300;
+  margin-top: 1.5rem;
+  font-weight: 600;
   text-decoration: none;
   -o-transition: .3s;
   -ms-transition: .3s;
@@ -102,11 +147,15 @@ a {
   -webkit-transition: .3s;
   transition: .3s;
   &:hover {
-    background-color: #f51037;
+    background-color: $light-pink;
     cursor: pointer;
   }
+  p {
+    width: 25%;
+    margin: 0 auto;
+  }
   a {
-    color: $off-white;
+    color: $off-black;
     &:hover {
       text-decoration: none;
     }
