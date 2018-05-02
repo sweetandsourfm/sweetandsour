@@ -217,6 +217,12 @@ footer {
   }
 }
 
+@media screen and (max-width: 960px) {
+  .tagline {
+    max-width: 60%;
+  }
+}
+
 @media screen and (max-width: 760px) {
   svg {
     width: 50%;
@@ -224,5 +230,9 @@ footer {
   .episodes, .about {
     padding: 0 2rem;;
     width: auto;
+  }
+  .tagline {
+    max-width: 80%;
+    padding: 1rem;
   }
 }
