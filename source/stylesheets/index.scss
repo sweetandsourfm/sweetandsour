@@ -1,84 +1,17 @@
 @charset "utf-8";
-// Font variables
-$text-stack: 'Open Sans', Helvetica, sans-serif;
-$gray: #e3e3e3;
-$pink: #f74160;
-$light-pink: #fff3f5;
-$dark-pink: #fec7d0;
-$off-white: #fafafa;
-$off-black: #2a2a2a;
-$white: #fff;
-
-body {
-  font-size: 16px;
-}
-
-header {
-  display: flex;
-  height: 75px;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: flex-start;
-  padding: 0 3rem;
-  ul {
-    display: flex;
-    flex: 1;
-    list-style: none;
-    text-align: left;
-    padding: 0;
-    li {
-      margin-right: 1.25rem;
-    }
-  }
-  a {
-    color: $off-black;
-    font-weight: bold;
-    &:hover {
-      text-decoration: none;
-      color: $pink;
-      // border-bottom: 3px solid $pink;
-    }
-  }
-  .site-header__logo {
-    font-family: 'Arizonia', cursive;
-    font-size: 2.5rem;
-    flex: 1;
-    text-align: center;
-  }
-  .active-nav {
-    color: $pink;
-    border-bottom: 3px solid $pink;
-  }
-  .site-header__icons {
-    display: flex;
-    flex: 1;
-    justify-content: flex-end;
-    .social-icon {
-      margin-right: .75rem;
-      &:last-of-type {
-        margin-right: 0;
-      }
-    }
-    .icon {
-      display: inline-block;
-      width: 1.5rem;
-      height: 1.5rem;
-      stroke-width: 0;
-      stroke: currentColor;
-      fill: currentColor;
-      margin-bottom: 0;
-      a {
-        &:hover {
-          border-bottom: none;
-        }
-      }
-    }
-  }
-}
+@import 'settings',
+        '_header',
+        '_footer',
+        '_angle.scss';
 
 body {
   font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+.edge--top--reverse {
+  @include angle(before, true);
+  background: $light-pink;
 }
 
 .container {
@@ -87,7 +20,7 @@ body {
   justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
-  margin: 2rem 0;
+  margin: 4em 0;
 }
 
 .episodes, .about {
@@ -117,11 +50,25 @@ body {
 .tagline {
   padding-bottom: 20px;
   max-width: 35%;
-  margin-left: 5rem;
+  margin-right: 6em;
   p {
     margin: 0;
     &:last-of-type {
       margin-top: .75rem;
+    }
+  }
+}
+
+.tagline__links {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+  .btn {
+    &:first-of-type {
+      margin-right: 1rem;
+    }
+    &:last-of-type {
+      margin-top: 0;
     }
   }
 }
@@ -131,6 +78,89 @@ a {
   text-decoration: none;
   &:hover {
     text-decoration: underline;
+  }
+}
+
+.section {
+  max-width: 60%;
+  margin: 0 auto;
+  padding-bottom: 4em;
+  .hr-text {
+    line-height: 5em;
+    position: relative;
+    outline: 0;
+    border: 0;
+    color: $black;
+    text-align: center;
+    height: 4.5em;
+    opacity: .5;
+    &:before {
+      content: '';
+      background: $black;
+      position: absolute;
+      left: 0;
+      top: 50%;
+      width: 100%;
+      height: 1px;
+    }
+    &:after {
+      content: attr(data-content);
+      position: relative;
+      display: inline-block;
+      color: $black;
+      font-size: 2rem;
+      padding: 0 .5em;
+      line-height: .5em;
+      // this is really the only tricky part, you need to specify the background color of the container element...
+      background-color: white;
+    }
+  }
+  .host-bios {
+    display: flex;
+    justify-content: center;
+  }
+  .host-bio {
+    display: flex;
+    flex-direction: column;
+    max-width: 40%;
+    text-align: center;
+    align-items: center;
+    &:last-child {
+      margin-left: 6em;
+    }
+  }
+  .host-img {
+    max-width: 12em;
+    img {
+      border: 10px solid $medium-pink;
+      border-radius: 50%;
+      width: 100%;
+    }
+  }
+  .section-episode {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    .section-episode__description {
+      max-width: 50%;
+      margin-right: 4em;
+      .section-episode__number {
+        margin-bottom: 0;
+        color: rgba(0,0,0,.5);
+      }
+      h3 {
+        text-transform: uppercase;
+        color: $dark-black;
+        margin-top: 0;
+      }
+    }
+    .section-episode__image {
+      width: 50%;
+      img {
+        width: 100%;
+        border-radius: 1em;
+      }
+    }
   }
 }
 
@@ -182,39 +212,6 @@ a {
 
 .logo {
   margin-bottom: 1em;
-}
-
-footer {
-  height: 5rem;
-  background-color: $pink;
-  color: $white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  .social-icon {
-    margin-right: .5rem;
-    a {
-      color: $white;
-      &:hover {
-        cursor: pointer;
-      }
-    }
-    &:last-of-type {
-      margin-right: 0;
-    }
-    &:hover {
-      opacity: 0.8;
-    }
-  }
-  .icon {
-    display: inline-block;
-    width: 1.5rem;
-    height: 1.5rem;
-    stroke-width: 0;
-    stroke: currentColor;
-    fill: currentColor;
-    margin-bottom: 0;
-  }
 }
 
 @media screen and (max-width: 960px) {

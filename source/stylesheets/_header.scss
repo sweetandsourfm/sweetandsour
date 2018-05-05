@@ -1,0 +1,65 @@
+@import 'settings';
+
+header {
+  display: flex;
+  height: 75px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 3rem;
+  ul {
+    display: flex;
+    flex: 1;
+    list-style: none;
+    text-align: left;
+    padding: 0;
+    li {
+      margin-right: 1.25rem;
+    }
+  }
+  a {
+    color: $off-black;
+    font-weight: bold;
+    &:hover {
+      text-decoration: none;
+      color: $pink;
+      // border-bottom: 3px solid $pink;
+    }
+  }
+  .site-header__logo {
+    font-family: 'Arizonia', cursive;
+    font-size: 2.5rem;
+    flex: 1;
+    text-align: center;
+  }
+  .active-nav {
+    color: $pink;
+    border-bottom: 3px solid $pink;
+  }
+  .site-header__icons {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    .social-icon {
+      margin-right: .75rem;
+      &:last-of-type {
+        margin-right: 0;
+      }
+    }
+    .icon {
+      display: inline-block;
+      width: 1.5rem;
+      height: 1.5rem;
+      stroke-width: 0;
+      stroke: currentColor;
+      fill: currentColor;
+      margin-bottom: 0;
+      a {
+        &:hover {
+          border-bottom: none;
+        }
+      }
+    }
+  }
+}
