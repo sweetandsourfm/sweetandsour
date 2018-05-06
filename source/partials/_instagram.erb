@@ -1,0 +1,15 @@
+ <div class="instagram-feed">
+  <div id="instafeed"></div>
+</div>
+<script>
+  var feed = new Instafeed({
+    get: 'user',
+    limit: 6,
+    resolution: 'low_resolution',
+    userId: '4405188904',
+    clientId: '<%= config[:client_id] %>',
+    accessToken: '<%= config[:access_token] %>',
+    template: '<div class="instagram-post"><img src="{{image}}" /></div>'
+  });
+  feed.run();
+</script>
