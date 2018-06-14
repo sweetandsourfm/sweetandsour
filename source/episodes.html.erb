@@ -7,9 +7,9 @@ title: episodes | sweet and sour
     <h1>Latest episode</h1>
     <div class="section-episode">
       <div class="section-episode__description">
-        <p class="section-episode__number">S01E01</p>
         <% latest_episode_index = data.episodes.episodes.length - 1 %>
         <% latest_episode = data.episodes.episodes[latest_episode_index] %>
+        <p class="section-episode__number"><%= latest_episode.number %></p>
         <h3><%= latest_episode.name %></h3>
         <p><%= latest_episode.description %></p>
       </div>
