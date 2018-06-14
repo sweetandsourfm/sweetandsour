@@ -2,23 +2,51 @@
 layout: episode
 title: episodes | sweet and sour
 ---
-<header class="site-header">
-  <p><a href="/about">About</a></p>
-  <p><a href="/episodes" class="active-nav">Episodes</a></p>
-</header>
-<div class="episodes">
-  <% data.episodes.episodes.each_with_index do |e, index| %>
-    <div class="episode">
-      <h2><%= e.name %></h2>
-      <p><%= e.description %></p>
-      <% if e.highlights %>
-        <% notes_link = "#{index}/" %>
-        <div class="see-show-notes">
-          <a href=<%= notes_link %> >See show notes</a>
-        </div>
-      <% end %>
-      <div class="responsive-object"><a class="embedly-card" href= <%= e.link %> ></a></div>
+<div class="container">
+  <div class="tagline">
+    <h1>Latest episode</h1>
+    <div class="section-episode">
+      <div class="section-episode__description">
+        <p class="section-episode__number">S01E01</p>
+        <% latest_episode_index = data.episodes.episodes.length - 1 %>
+        <% latest_episode = data.episodes.episodes[latest_episode_index] %>
+        <h3><%= latest_episode.name %></h3>
+        <p><%= latest_episode.description %></p>
+      </div>
+    </div>  
+    <div class="tagline__links">
+      <p class="btn"><a href="https://itunes.apple.com/us/podcast/sweet-and-sour/id1189796866">Subscribe</a></p>
     </div>
-  <% end %>
+  </div>
+  <div class="section-episode__image">
+    <img src="<%=latest_episode.image %>" />
+  </div>
 </div>
-<script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
+<div class="edge--top--reverse">
+  <div class="episode-directory">
+    <div class="episode-directory__header">
+      <hr class="hr-text" data-content="Explore episodes" />
+    </div>
+
+    <% data.episodes.episodes.each_slice(3).to_a.each_with_index do |section, section_index| %>
+      <% if section_index === 3 %>
+        <%= partial "partials/newsletter" %>
+      <% end %>
+      <div class="row">
+        <% section.each_with_index do |e, index| %>
+          <div class="episode">
+            <div class="episode__image">
+              <img src="<%= e.image %>" />
+            </div>
+            <div class="episode__description">
+              <p class="episode__number"><%= e.number %></p>
+              <% notes_link = "#{index}/" %>
+              <h3><a href=<%= notes_link %> ><%= e.name %></a></h3>
+              <p><%= e.description %></p>
+            </div>
+          </div>
+        <% end %>
+      </div>
+    <% end %>
+  </div>
+</div>
