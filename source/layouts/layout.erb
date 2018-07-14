@@ -22,5 +22,5 @@
     <%= partial "partials/header" %>
     <%= yield %>
   </body>
-  <%= partial "partials/footer" %>
+  <%= partial("partials/footer", :locals => { :theme => 'plain' }) %>
 </html>

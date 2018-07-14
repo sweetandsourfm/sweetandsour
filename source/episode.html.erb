@@ -1,31 +1,39 @@
 ---
 layout: episode
 title: episodes | sweet and sour
+theme: 'pink'
 ---
-<header class="site-header">
-  <p><a href="/about">About</a></p>
-  <p><a href="/episodes" class="active-nav">Episodes</a></p>
-</header>
-<div class="episode-details">
-  <div class="episode-description">
-    <span class="episode-label">Episode <%= episode_num %></span>
-    <h2><%= episode_name %></h2>
-    <div class="responsive-object">
-      <a class="embedly-card" href=<%= episode_link %> ></a>
+<% data.episodes.episodes.to_a.each_with_index do |episode, episode_index| %>
+<% if episode_index === 12 %>
+<div class="container episode-container">
+  <div class="episode__metadata">
+    <div class="tagline">
+      <div class="section-episode">
+        <div class="section-episode__description">
+          <p class="section-episode__number"><%= episode.number %></p>
+          <h3><%= episode.name %></h3>
+          <p><%= episode.description %></p>
+        </div>
+      </div>  
+    </div>
+    <div class="section-episode__image">
+      <img src="<%= episode.image %>" />
     </div>
   </div>
-  <div class="episode-notes">
-    <h3>Highlights</h3>
-    <%= episode_highlights %>
-    <% if episode_notes %>
-      <div class="show-notes">
-        <h3>Show notes</h3>
-        <%= episode_notes %>
+  <div class="episode__info">
+    <div class="episode__highlights">
+      <h3>Highlights</h3>
+      <%= episode.highlights %>
+    </div>
+    <% if episode.notes %>
+      <div class="edge--top--reverse">
+        <div class="episode__show-notes">
+          <h3>Show notes</h3>
+          <%= episode.notes %>
+        </div>
       </div>
     <% end %>
-    <div class="back-to-episodes">
-      <h4><a href="/episodes">Back to episodes</a></h4>
-    </div>
   </div>
 </div>
-<script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
+<% end %>
+<% end %>

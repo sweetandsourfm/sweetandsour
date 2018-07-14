@@ -78,6 +78,9 @@ footer {
     fill: currentColor;
     margin-bottom: 0;
   }
+  &.pink {
+    background-color: $light-pink;
+  }
 }
 
 @media screen and (max-width: 50em) {

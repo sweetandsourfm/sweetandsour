@@ -3,7 +3,6 @@
   // Possible values for $pseudo are: before, after, both
   @if $pseudo == 'before' or $pseudo == 'after' or $pseudo == 'both' {
     position: relative;
-    z-index: -1;
     $selector: if($pseudo == 'both', '&:before,&:after', '&:#{$pseudo}');
 
     #{$selector} {

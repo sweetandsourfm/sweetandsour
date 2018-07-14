@@ -61,50 +61,39 @@
   padding-bottom: 2em;
 }
 
-// to delete
-.episode-details {
-  max-width: 100%;
-  width: 40rem;
+// individual episode page
+.episode-container {
+  max-width: 60em;
   margin: 0 auto;
-  margin-bottom: 4rem;
-  p, ul {
-    border-bottom: 1px solid $gray;
+  margin-top: 4em;
+}
+
+.episode__metadata {
+  display: flex;
+  justify-content: center;
+  .tagline {
+    max-width: 55%;
+    margin-right: 3.5em;
+  }
+  .section-episode__image {
+    width: 40%
   }
 }
 
-.episode-description {
-  margin-bottom: 2rem;
-  margin-top: 1rem;
+.episode__info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin: 5em 0;
 }
 
-.episode-label {
-  border: 2px solid $pink;
-  padding: 5px 10px;
-  border-radius: 3px;
-  color: $pink;
+.episode__highlights {
+  max-width: 50%;
+  margin-right: 3.5em;
 }
 
-.back-to-episodes {
-  margin: 2rem 0;
-  a {
-    color: $pink;
-    font-weight: bold;
-    border-bottom: 3px solid $pink;
-    &:hover {
-      text-decoration: none;
-      color: $off-black;
-      border-bottom-color: $off-black;
-    }
-  }
-}
-
-.show-notes {
-  margin-top: 2rem;
-}
-
-@media screen and (max-width: 760px) {
-  .episode-details {
-    padding: 0 2rem;;
-    width: auto;
-  }
+.episode__show-notes {
+  padding: 4rem;
+  z-index: 3;
 }
