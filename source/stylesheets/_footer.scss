@@ -4,6 +4,13 @@ footer {
   background-color: white;
   color: black;
   padding: 3em 0;
+  a {
+    color: black;
+    &:hover {
+      border-bottom: 3px solid $dark-pink;
+      text-decoration: none;
+    }
+  }
   .site-footer__content {
     display: flex;
     align-items: center;
