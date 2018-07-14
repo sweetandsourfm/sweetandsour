@@ -3,15 +3,17 @@
 footer {
   background-color: white;
   color: black;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   padding: 3em 0;
-  @media screen and (max-width: 40em) {
-    flex-direction: column;
-    align-items: flex-start;
-    margin: 0 auto;
-    max-width: 85%;
+  .site-footer__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @media screen and (max-width: 50em) {
+      margin: 0 auto;
+      max-width: 85%;
+      flex-direction: column;
+      align-items: flex-start;
+    }
   }
   .site-footer__about {
     max-width: 25%;
@@ -42,7 +44,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-self: flex-end;
-    @media screen and (max-width: 40em) {
+    @media screen and (max-width: 50em) {
       align-self: flex-start;
       margin-top: 1em;
     }

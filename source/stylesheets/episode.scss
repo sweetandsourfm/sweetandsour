@@ -66,6 +66,7 @@
   max-width: 60em;
   margin: 0 auto;
   margin-top: 4em;
+  padding: 0 2em;
 }
 
 .episode__metadata {
@@ -96,4 +97,29 @@
 .episode__show-notes {
   padding: 4rem;
   z-index: 3;
+  h3 {
+    text-transform: uppercase;
+  }
+}
+
+@media screen and (max-width: 50em) {
+  .episode__info {
+    display: block;
+    margin-top: 2em;
+  }
+  .episode__metadata {
+    display: block;
+    .section-episode__image {
+      width: 100%;
+      margin-top: 2em;
+    }
+  }
+  .episode__highlights, .episode__metadata .tagline {
+    max-width: 100%;
+    margin: 0;
+    padding: 0
+  }
+  .episode__show-notes {
+    margin-top: 4em;
+  }
 }
