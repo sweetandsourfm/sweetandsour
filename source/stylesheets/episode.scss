@@ -5,7 +5,7 @@
   .section-episode {
     .section-episode__description {
       .section-episode__number {
-        margin-bottom: 0;
+        margin-bottom: .25rem;
         color: rgba(0,0,0,.5);
         font-family: 'Agipo Mono';
         font-weight: 800;
@@ -106,6 +106,8 @@
 .episode__highlights {
   max-width: 50%;
   margin-right: 3.5em;
+  font-weight: 300;
+  line-height: 1.25;
 }
 
 .episode__show-notes {
@@ -182,6 +184,15 @@
     }
     .section-episode__image {
       width: 85%;
+    }
+  }
+  // individual episode page
+  .episode__metadata {
+    .tagline {
+      max-width: 100%;
+    }
+    .section-episode__image {
+      width: 100%;
     }
   }
 }
