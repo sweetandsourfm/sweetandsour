@@ -43,7 +43,7 @@ theme: 'plain'
               <p class="episode__number"><%= e.number %></p>
               <% notes_link = "#{index}/" %>
               <h3><a href=<%= notes_link %> ><%= e.name %></a></h3>
-              <p><%= e.description %></p>
+              <p><%= e.short_description || e.description %></p>
             </div>
           </div>
         <% end %>
