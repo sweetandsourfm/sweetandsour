@@ -13,6 +13,19 @@ theme: 'pink'
         <div class="section-episode__description">
           <p class="section-episode__number"><%= episode.number %></p>
           <h3><%= episode.name %></h3>
+          <audio id="my-audio">
+            <source src=<%= episode.link %> >
+          </audio>
+          <div class="audio-player">
+            <div id="controls">
+              <span id="loading">loading</span>
+              <div class="audio-buttons"><button class="play-button"></button></div>
+            </div>
+            <div id="progress">
+              <div id="bar"></div>
+              <span class="listen-label">Take a listen</span>
+            </div>
+          </div>
           <p><%= episode.description %></p>
         </div>
       </div>  

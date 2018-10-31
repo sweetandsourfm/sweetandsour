@@ -11,7 +11,7 @@ theme: 'plain'
         <% latest_episode_index = data.episodes.episodes.length - 1 %>
         <% latest_episode = data.episodes.episodes[latest_episode_index] %>
         <p class="section-episode__number"><%= latest_episode.number %></p>
-        <h3><%= latest_episode.name %></h3>
+        <h3><a href=<%= "/episodes/#{latest_episode_index}/" %> ><%= latest_episode.name %></a></h3>
         <p><%= latest_episode.description %></p>
       </div>
     </div>  
@@ -41,7 +41,7 @@ theme: 'plain'
             </div>
             <div class="episode__description">
               <p class="episode__number"><%= e.number %></p>
-              <% notes_link = "#{index}/" %>
+              <% notes_link = "/episodes/#{index}/" %>
               <h3><a href=<%= notes_link %> ><%= e.name %></a></h3>
               <p><%= e.short_description || e.description %></p>
             </div>

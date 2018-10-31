@@ -15,6 +15,9 @@
         text-transform: uppercase;
         color: $dark-black;
         margin-top: 0;
+        a {
+          color: $dark-black;
+        }
       }
     }
   }

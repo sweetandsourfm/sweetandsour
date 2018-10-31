@@ -1,0 +1,67 @@
+@import 'settings';
+
+.audio-player {
+  background-color: $medium-pink;
+  display: flex;
+  width: 45%;
+  border-radius: 10px;
+}
+
+#controls {
+}
+    
+#progress {
+  width: 100%;
+  height: 50px;
+  cursor: pointer;
+}
+
+#bar {
+  height: 100%;
+  background-color: $dark-pink;
+  width: 0;
+}
+
+.audio-buttons {
+  background-color: $light-pink;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+}
+
+.listen-label {
+  position: relative;
+  top: -34px;
+  left: 10px;
+  color: $dark-black;
+  font-weight: bold;
+}
+
+.play-button {
+  border: 0;
+  background: transparent;
+  box-sizing: border-box;
+  padding: 0;
+  width: 0;
+  height: 15px;
+
+  border-color: transparent transparent transparent $dark-black;
+  transition: 100ms all ease;
+  cursor: pointer;
+
+  position: relative;
+  top: 0px;
+  left: 10px;
+
+  // play state
+  border-style: solid;
+  border-width: 9px 0 9px 16px;
+
+  &.paused {
+    border-style: double;
+    border-width: 0px 0 0px 14px;
+    top: 7px;
+    left: 9px;
+  }
+}

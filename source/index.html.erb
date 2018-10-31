@@ -4,12 +4,26 @@ title: sweet and sour
 ---
 <div class="container">
   <div class="tagline">
-    <h1>A podcast about being an Asian woman in America</h1>
+    <h1>A podcast about being Asian in America</h1>
     <p>Founded on the belief that mainstream narratives do not encompass or reflect the breadth of the Asian American experience, Sweet and Sour highlights voices, experiences, and perspectives of Asian Americans who do dope shit.</p>
-    <p>We discuss culture, race, identity, who we are and who we want to be. Subscribe today.</p>
+    <p>We discuss the intersections of our identity with culture, work, and lifestyle. Subscribe today.</p>
     <div class="tagline__links">
       <p class="btn"><a href="https://itunes.apple.com/us/podcast/sweet-and-sour/id1189796866">Subscribe</a></p>
-      <p class="btn">Take a listen TK</p>
+      <!-- audio player -->
+      <audio id="my-audio">
+        <source src="http://sweetandsour.fm/feed/assets/audio/sweet-and-sour-teaser.m4a">
+      </audio>
+      <div class="audio-player">
+        <div id="controls">
+          <span id="loading">loading</span>
+          <div class="audio-buttons"><button class="play-button"></button></div>
+        </div>
+        <div id="progress">
+          <div id="bar"></div>
+          <span class="listen-label">Take a listen</span>
+        </div>
+      </div>
+      <!-- audio player -->
     </div>
   </div>
   <svg class="logo" viewBox="0 0 100 100" width="25%">
@@ -50,6 +64,6 @@ title: sweet and sour
   <%= partial "partials/newsletter" %>
   <div class="section">
     <hr class="hr-text" data-content="Find us on Instagram @sweetandsour" />
-    <%= partial "partials/instagram" %>
+<!--     <%= partial "partials/instagram" %> -->
   </div>
 </div>
