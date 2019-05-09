@@ -89,6 +89,7 @@
 .episode__metadata {
   display: flex;
   justify-content: center;
+  margin-bottom: 4em;
   .tagline {
     max-width: 55%;
     margin-right: 3.5em;
@@ -103,7 +104,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  margin: 5em 0;
+  margin: 3em 0;
 }
 
 .episode__highlights {

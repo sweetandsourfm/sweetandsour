@@ -34,20 +34,22 @@ theme: 'pink'
       <img src="<%= episode.image %>" />
     </div>
   </div>
-  <div class="episode__info">
-    <div class="episode__highlights">
-      <h3>Highlights</h3>
-      <%= episode.highlights %>
-    </div>
-    <% if episode.notes %>
-      <div class="edge--top--reverse">
-        <div class="episode__show-notes">
-          <h3>Show notes</h3>
-          <%= episode.notes %>
-        </div>
+  <% if episode.highlights || episode.notes %>
+    <div class="episode__info">
+      <div class="episode__highlights">
+        <h3>Highlights</h3>
+        <%= episode.highlights %>
       </div>
-    <% end %>
-  </div>
+      <% if episode.notes %>
+        <div class="edge--top--reverse">
+          <div class="episode__show-notes">
+            <h3>Show notes</h3>
+            <%= episode.notes %>
+          </div>
+        </div>
+      <% end %>
+    </div>
+  <% end %>
 </div>
 <% if episode.guest.present? %>
   <%= partial "partials/newsletter" %>
