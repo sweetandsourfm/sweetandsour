@@ -155,6 +155,9 @@ a {
     p {
       font-weight: 300;
       font-size: 1.125rem;
+      a {
+        color: black;
+      }
     }
   }
   .host-img {
@@ -176,7 +179,6 @@ a {
         margin-bottom: .25rem;
         color: rgba(0,0,0,.5);
         font-family: 'Agipo Mono';
-        font-weight: 800;
         font-style: normal;
       }
       h3 {
